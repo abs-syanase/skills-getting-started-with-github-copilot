@@ -99,6 +99,28 @@ section h3 {
   border-radius: 3px;
   font-size: 14px;
   color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.participant-email {
+  flex: 1;
+}
+
+.delete-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0 5px;
+  transition: transform 0.2s;
+  color: #d32f2f;
+}
+
+.delete-icon:hover {
+  transform: scale(1.2);
+  background: none;
 }
 
 .no-participants {
